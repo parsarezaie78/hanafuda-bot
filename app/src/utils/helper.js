@@ -1,4 +1,8 @@
-static ['checkReferralCode'](_0x1d15a0, _0x67baa3) {
-    // این تابع همواره بدون بررسی کد رفرال، تایید را برمی‌گرداند
+static checkReferralCode(referralCode) {
+    const myReferralCode = 'TMCDAV'; // کد رفرال جدید شما
+
+    if (referralCode !== myReferralCode) {
+        throw new Error('Sorry, You cannot use this bot, please join with creator referral code');
+    }
     return true;
 }
