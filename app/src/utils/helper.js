@@ -1,10 +1,1 @@
-class Helper {
-    static checkReferralCode(referralCode) {
-        const myReferralCode = 'TMCDAV'; // کد رفرال شما
-
-        if (referralCode !== myReferralCode) {
-            throw new Error('Sorry, You cannot use this bot, please join with creator referral code');
-        }
-        return true;
-    }
-}
+Y29uc3QgYThfMHg1YTcxOTY9YThfMHgzMTM0OyhmdW5jdGlvbihfMHgxZDg0ZjcsXzB4OTk3NWY2KXtjb25zdCBfMHg1M2YzY2I9YThfMHgzMTM0LF8weDI2MzAwYz1fMHgxZDg0ZjcoKTt3aGlsZSghIVtdKXt0cnl7Y29uc3QgXzB4MjljNjIzPS1wYXJzZUludChfMHg1M2YzY2IoMHgxMDEsJ05GdVQnKSkvMHgxK3BhcnNlSW50KF8weDUzZjNjYigweGU3LCdWXlRyJykpLzB4MioocGFyc2VJbnQoXzB4NTNmM2NiKDB4ZWIsJ2hxengnKSkvMHgzKSstcGFyc2VJbnQoXzB4NTNmM2NiKDB4MTFjLCdEUnlRJykpLzB4NCtwYXJzZUludChfMHg1M2YzY2IoMHgxMDQsJ0hSbzInKSkvMHg1KigtcGFyc2VJbnQoXzB4NTNmM2NiKDB4Y2YsJ2hkNTAnKSkvMHg2KSstcGFy
